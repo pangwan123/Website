@@ -1,0 +1,56 @@
+body{
+
+font-family: 'Slabo 27px', serif;
+
+}
+
+nav{
+	min-height: 50px;
+	background-color: #778899;
+}
+nav div{
+	padding-top:5px;
+}
+.loginPanel{
+	border-style:solid;
+	border-color:black;
+	border-width:1px;
+	border-bottom-width: 3px;
+	border-radius: 10px;
+}
+
+@media screen(min-height: 700px){
+	.loginPanel{
+		margin-top: 100px;
+	}
+}
+
+#login-email-label, #login-password-label {
+	font-size: 20px;
+	font-weight: 600;
+	margin-left: 33%;
+	padding-top: 30px;
+
+}
+#login-email-label{
+	margin-left: 33%;
+}
+#login-password-label{
+	margin-left: 24%;
+}
+.login-link-text, .login-close-text{
+	display:none;
+}
+#login-password, #login-email{
+	padding: 8px;
+	border-width: 1px;
+	border-radius: 6px;
+}
+
+.login-button{
+	color:white;
+	background-color: #ffad4e
+	line-height: 2;
+	font-size: 18px;
+	text-align: center;
+}
